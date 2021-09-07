@@ -1,0 +1,44 @@
+#rolar{
+    background-color: aqua;
+    border: 2px solid black;
+    color: black;
+    padding: 10px 20px;
+    width: 100%;
+}
+main{
+    display: flex;
+
+}
+#mostrar{
+    border: 2px solid brown;
+    margin: 10px;
+    color: black;
+    font-size: 20px;
+    width: 30%;
+}
+.resultado{
+    margin: 9px;
+    color: black;
+    font-size: 20px;
+}
+.tabela{
+    margin: 10px;
+    color: black;
+    font-size: 20px;
+} 
+@media (min-width:767px) {
+    #mostrar{
+        width:50%
+    }
+    #rolar{
+        width: 50%;
+    }
+
+}
+@media(min-width:1024px){
+
+    .tabela, .resultado{
+        font-size: 30px;
+        width: 30%;
+    }
+}
